@@ -1,2 +1,0 @@
-# whitepat-frontend
-front end

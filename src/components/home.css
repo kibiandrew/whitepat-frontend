@@ -1,0 +1,174 @@
+
+  .report-container{
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    /* overflow-y: scroll; */
+    /* overflow-x:scroll; */
+  }
+  /* .reportlist{
+    border: 1px solid red;
+    margin: 10px;
+  } */
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    word-wrap: break-word;
+
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 1em;
+    word-wrap: break-word;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    word-wrap: break-word;
+
+  }
+  .tbtn span{
+    padding: 3px;
+  }
+  .tbtn .btn1{
+    padding: 4px;
+    color: red;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  /* .reportscontainer{
+    width: 20%;
+  } */
+    /* fomreport */
+  .fompost{
+width: 30%;
+/* border: 1px solid red; */
+
+    }
+    .formR{
+      width: 100%;
+    }
+   .hideshow{
+      width: 100%;
+      padding: 10px;
+      margin: 15px 0;
+      cursor: pointer;
+    }
+    .formR input{
+      width: 100%;
+      padding: 10px;
+      margin: 15px 0;
+    }
+    .formR .post-btn{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding:8px 15px;
+      cursor: pointer;
+
+
+    }
+    .formR .post-btn:hover{
+      background-color: teal;
+    }
+
+    /* border-bottom: 1px solid #1f1e1e; */
+  .tbtn .btn2{
+    padding: 4px;
+    color: green;
+    cursor: pointer;
+  }
+
+  textarea{
+    width: 100%;
+    height: 100px;
+  }
+
+
+  .form_container{
+
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    width: 30%;
+    left: 30%;
+    top: 32%;
+  }
+
+  .action_btn{
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .close-btn{
+
+    cursor: pointer;
+    font-weight: 900;
+  }
+
+
+  /* HOME */
+  .displayuserName{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .addpostbtn{
+    display: flex;
+    justify-content:center;
+  }
+  .addpostbtn .add-btn{
+    padding: 4px;
+    color: green;
+    cursor: pointer;
+
+  }
+  .displayposts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x:auto
+  }
+  .postsheader{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .formcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchbar{
+    display: flex;
+    align-items:center ;
+    margin: 2rem;
+  }
+  .searchbar input{
+    padding:10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px;
+    width: 40%;
+    border-radius: 5px;
+  }
+  .searchbar h3{
+    padding:10px;
+    display: flex;
+    align-items: center;
+    margin-left: 20%
+  }
+  /* .postsheader h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  } */
